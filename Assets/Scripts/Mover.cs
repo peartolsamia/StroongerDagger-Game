@@ -3,15 +3,15 @@ using UnityEngine;
 
 
 
-namespace TopDown.Movement
+namespace StroongerDagger.Movement
 {
 
-    [RequireComponent (typeof (Rigidbody))]
+    [RequireComponent (typeof (Rigidbody))] // Rigidbody component is essential for objects that includes Mover component
 
     public class Mover : MonoBehaviour
     {
-        protected Vector3 Input; // Current Input
-        [SerializeField] private float Speed; // Movement Speed
+        public Vector3 MoveInput; // Current input
+        [SerializeField] private float Speed; // Movement speed
 
         private Rigidbody2D Body;
 
@@ -27,7 +27,7 @@ namespace TopDown.Movement
 
         private void FixedUpdate()
         {
-            Body.linearVelocity = Speed * Input * Time.fixedDeltaTime;
+            Body.linearVelocity = Speed * MoveInput * Time.fixedDeltaTime; // Objects velocity calculation
         }
 
 
