@@ -17,6 +17,20 @@ namespace StroongerDagger.Movement
             MoveInput = PlayerInput;
         }
 
+        private void OnDodge(InputValue value)
+        {
+            if (value.isPressed) // Only when button pressed
+            {
+                TryStartDodge();
+            }
+        }
+
+        private void TryStartDodge()
+        {
+            // Tell mover class to start dodge
+            StartDodge(MoveInput);
+        }
+
 
     }
 
