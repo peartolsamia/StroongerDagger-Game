@@ -13,6 +13,7 @@ public class DaggerPickUp : MonoBehaviour
             if (playerAnimator != null)
             {
                 playerAnimator.SetBool("holding_dagger", true);
+                playerAnimator.SetBool("bare_hands", false);
             }
 
             Destroy(gameObject);
