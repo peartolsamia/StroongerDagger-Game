@@ -6,19 +6,19 @@ using StroongerDagger.Movement;
 
 public class WalkAnimation : MonoBehaviour
 {
-    private Animator CurrentWalkAnimation;
+    private Animator playerAnimator;
     [SerializeField] Mover PlayerMover;
 
 
     private void Awake()
     {
-        CurrentWalkAnimation = GetComponent<Animator>();
-        CurrentWalkAnimation.SetBool("bare_hands", true);
+        playerAnimator = GetComponent<Animator>();
+        playerAnimator.SetBool("bare_hands", true);
     }
 
     private void Update()
     {
-        CurrentWalkAnimation.SetBool("is_moving", PlayerMover.MoveInput != Vector3.zero);
+        playerAnimator.SetBool("is_moving", PlayerMover.MoveInput != Vector3.zero);
         
     }
 
