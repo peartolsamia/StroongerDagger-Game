@@ -7,6 +7,7 @@ public class CombatManager : MonoBehaviour
 {
     private Animator playerAnimator;
     private DaggerManager daggerManager;
+    private DaggerThrower daggerThrower;
 
     [Header("Input Actions")]
     [SerializeField] private InputActionAsset inputActions;
@@ -19,6 +20,7 @@ public class CombatManager : MonoBehaviour
     {
         playerAnimator = GetComponent<Animator>();
         daggerManager = GetComponent<DaggerManager>();
+        daggerThrower = GetComponent<DaggerThrower>();
     }
 
     private void OnEnable()
@@ -62,7 +64,19 @@ public class CombatManager : MonoBehaviour
         if (daggerManager.GetCurrentForm() == DaggerFormType.NoDagger) // Do nothing if current form is no dagger
             return;
 
+        if (daggerManager.GetCurrentForm() == DaggerFormType.Dagger) // Dagger throw 
+        {
+            playerAnimator.SetTrigger("Attack2");
+            daggerThrower.TryThrowDagger();
+            Debug.Log("Dagger thrown!");
+        }
+        else
+        {
+            Debug.Log("No dagger to throw!");
+        }
+
+
+        // TEMPORARILY for other cases (greatsword and sword) 
         playerAnimator.SetTrigger("Attack2");
-        Debug.Log("Attack2 performed");
     }
 }
