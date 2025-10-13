@@ -67,16 +67,17 @@ public class CombatManager : MonoBehaviour
         if (daggerManager.GetCurrentForm() == DaggerFormType.Dagger) // Dagger throw 
         {
             playerAnimator.SetTrigger("Attack2");
-            daggerThrower.TryThrowDagger();
-            Debug.Log("Dagger thrown!");
+            //Debug.Log("Current clip: " + playerAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.name);
+            //Debug.Log("Attack2 trigger sent! holding_dagger = " + playerAnimator.GetBool("holding_dagger"));
         }
         else
         {
             Debug.Log("No dagger to throw!");
         }
 
-
-        // TEMPORARILY for other cases (greatsword and sword) 
-        playerAnimator.SetTrigger("Attack2");
+        if (daggerManager.GetCurrentForm() == DaggerFormType.Sword || daggerManager.GetCurrentForm() == DaggerFormType.Greatsword) // TEMPORARILY for other cases (greatsword and sword) 
+        {
+            playerAnimator.SetTrigger("Attack2");
+        }
     }
 }

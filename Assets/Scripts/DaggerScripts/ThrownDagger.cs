@@ -27,7 +27,8 @@ public class ThrownDagger : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0;
-        rb.isKinematic = true;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+
 
         Invoke(nameof(SpawnPickup), stopAfterCollisionDelay);
     }

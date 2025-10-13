@@ -18,6 +18,9 @@ public class DaggerThrower : MonoBehaviour
 
     public void TryThrowDagger()
     {
+        Debug.Log("Animation event: TryThrowDagger() called!");
+
+
         if (daggerThrown) return;
         if (daggerManager.GetCurrentForm() != DaggerFormType.Dagger) return;
 
