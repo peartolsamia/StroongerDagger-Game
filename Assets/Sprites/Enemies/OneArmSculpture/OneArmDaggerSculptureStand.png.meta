@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 5382690cb8339524286230e5dec84fae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3209839209479470354
+    second: OneArmDaggerSculptureStand_0
+  - first:
+      213: 3083091713082329532
+    second: OneArmDaggerSculptureStand_1
+  - first:
+      213: -7904739801313491550
+    second: OneArmDaggerSculptureStand_2
+  - first:
+      213: -4791811034031228271
+    second: OneArmDaggerSculptureStand_3
+  - first:
+      213: -3285934038194253467
+    second: OneArmDaggerSculptureStand_4
+  - first:
+      213: -1183359811721060483
+    second: OneArmDaggerSculptureStand_5
+  - first:
+      213: -4595056133857659703
+    second: OneArmDaggerSculptureStand_6
+  - first:
+      213: 8772389898144158861
+    second: OneArmDaggerSculptureStand_7
+  - first:
+      213: -6068725487342464130
+    second: OneArmDaggerSculptureStand_8
+  - first:
+      213: 5037942073503034916
+    second: OneArmDaggerSculptureStand_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_0
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 269
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21df42b21c3ab8c20800000000000000
+      internalID: 3209839209479470354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 259
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb90930049759ca20800000000000000
+      internalID: 3083091713082329532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 269
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a541d42809bc4290800000000000000
+      internalID: -7904739801313491550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_3
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 99
+        width: 212
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a75cda041108db0800000000000000
+      internalID: -4791811034031228271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_4
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 99
+        width: 212
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5611112e6640662d0800000000000000
+      internalID: -3285934038194253467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 99
+        width: 212
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f94ec558cd39fe0800000000000000
+      internalID: -1183359811721060483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 249
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c43f6abac41b30c0800000000000000
+      internalID: -4595056133857659703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 99
+        width: 222
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d849b1e522acdb970800000000000000
+      internalID: 8772389898144158861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 249
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d79f925e87cba0800000000000000
+      internalID: -6068725487342464130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OneArmDaggerSculptureStand_9
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 229
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ea42aaf9d5ae540800000000000000
+      internalID: 5037942073503034916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OneArmDaggerSculptureStand_0: 3209839209479470354
+      OneArmDaggerSculptureStand_1: 3083091713082329532
+      OneArmDaggerSculptureStand_2: -7904739801313491550
+      OneArmDaggerSculptureStand_3: -4791811034031228271
+      OneArmDaggerSculptureStand_4: -3285934038194253467
+      OneArmDaggerSculptureStand_5: -1183359811721060483
+      OneArmDaggerSculptureStand_6: -4595056133857659703
+      OneArmDaggerSculptureStand_7: 8772389898144158861
+      OneArmDaggerSculptureStand_8: -6068725487342464130
+      OneArmDaggerSculptureStand_9: 5037942073503034916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
