@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 
 
@@ -13,6 +14,7 @@ namespace StroongerDagger.Movement
             float Angle = AngleBetweenTwoPoints(transform.position, Target) + 90;
 
             transform.eulerAngles = new Vector3 (0, 0, Angle);
+
         }
 
 

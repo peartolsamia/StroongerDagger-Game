@@ -442,8 +442,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.018344408, y: 0.2091613}
-  m_Radius: 2.0077577
+  m_Offset: {x: -0.028474241, y: 0.19386606}
+  m_Radius: 2.0601969
 --- !u!114 &358446630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1446,6 +1446,7 @@ GameObject:
   - component: {fileID: 1609686930}
   - component: {fileID: 1609686933}
   - component: {fileID: 1609686935}
+  - component: {fileID: 1609686936}
   - component: {fileID: 1609686929}
   - component: {fileID: 1609686931}
   - component: {fileID: 1609686932}
@@ -1520,15 +1521,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609686928}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.19006084, w: 0.98177236}
-  m_LocalPosition: {x: -6.039197, y: -2.060348, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3317405, w: 0.94337076}
+  m_LocalPosition: {x: -6.117597, y: -2.0595396, z: 0}
   m_LocalScale: {x: 1.3363, y: 1.334, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 358446628}
   - {fileID: 133740982}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -21.913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.749}
 --- !u!50 &1609686931
 Rigidbody2D:
   serializedVersion: 5
@@ -1555,7 +1556,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &1609686932
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1605,6 +1606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAggro: 0
+  maxSpeed: 10
+  arriveThreshold: 0.2
 --- !u!95 &1609686934
 Animator:
   serializedVersion: 7
@@ -1643,6 +1646,19 @@ MonoBehaviour:
   startingHealth: 50
   iFramesDuration: 0
   numOfFlashes: 0
+--- !u!114 &1609686936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609686928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 113fa58c13e2af24ca96248dbe6d7edc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CustomId: 
 --- !u!1 &1794930474
 GameObject:
   m_ObjectHideFlags: 0
