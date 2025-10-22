@@ -47,11 +47,11 @@ public class HealthManager : MonoBehaviour
 
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth); 
 
-        if (currentHealth > 0) // the case player is not dead
+        if (currentHealth > 0) // not dead
         {
             StartCoroutine(Invulnerability());
         }
-        else // player is dead
+        else //  dead
         {
             if (!dead)
             {
@@ -75,6 +75,8 @@ public class HealthManager : MonoBehaviour
                     GetComponent<Animator>().SetBool("is_moving", false);
                 }
 
+                // disable and destroy enemy
+                // ...
 
 
 
